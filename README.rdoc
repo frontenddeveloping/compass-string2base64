@@ -1,4 +1,4 @@
-# Compass::String2base64
+= Compass::String2base64
 
 Sass/Compass extension to convert string (for example SVG) to base64, use via background or background-images with MIME-type image/svg+xml.
 
@@ -16,10 +16,10 @@ some-css-selector {
     background-image: url(data:image/svg+xml;charset=utf-8;base64,_SVG_base64_hash_string_goes_here_)
 }
 ```
-Support of SVG via backgrounds http://caniuse.com/#feat=svg-css
+Support of SVG via backgrounds http://caniuse.com/=feat=svg-css
 
 
-## Installation
+== Installation
 
 Add this line to your application's Gemfile:
 
@@ -33,7 +33,7 @@ Or install it yourself as:
 
     $ gem install compass-string2base64
 
-## Usage
+== Usage
 
 ```
 background-image: url('data:image/svg+xml;charset=utf-8;base64,'
@@ -41,7 +41,7 @@ background-image: url('data:image/svg+xml;charset=utf-8;base64,'
 ```
 See example folder and run `compass compile --force` in this folder to see the result
 
-## Contributing
+== Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
