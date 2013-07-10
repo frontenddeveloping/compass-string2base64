@@ -5,7 +5,7 @@ require 'compass/string2base64/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "compass-string2base64"
-  spec.version       = Compass::String2base64::VERSION
+  spec.version       = String2base64::VERSION
   spec.authors       = ["Alexander Pinchuk"]
   spec.email         = ["front.end.developing@gmail.com"]
   spec.description   = "Sass/Compass extension to convert string (for example SVG) to base64. You can use base64 via background or background-images"
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake",
+  spec.add_development_dependency "rake"
   spec.add_development_dependency "sass"
 end

@@ -37,9 +37,9 @@ Or install it yourself as:
 
 ```
 background-image: url('data:image/svg+xml;charset=utf-8;base64,'
-                      + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'
-                      + '</svg>'))
+                    + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"></svg>'));
 ```
+See example folder and run `compass compile --force` in this folder to see the result
 
 ## Contributing
 
