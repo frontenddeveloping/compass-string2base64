@@ -36,8 +36,8 @@ Or install it yourself as:
 ## Usage
 
 `
-background-image: url('data:image/svg+xml;charset=utf-8;base64,'
-                      + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'
+background-image: url('data:image/svg+xml;charset=utf-8;base64,'\n
+                      + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'\n
                       + '</svg>'))
 `
 
