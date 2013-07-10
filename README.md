@@ -3,19 +3,19 @@
 Sass/Compass extension to convert string (for example SVG) to base64, use via background or background-images with MIME-type image/svg+xml.
 
 Data URI via base64 hash in css usage:
-`
+
 some-css-selector {
     background-image: url(data:[MIME-type][; charset];base64,_base64_hash_string_goes_here_)
 }
-`
+
 As you can see, you can not specify the encoding.
 
 SVG in background in css usage:
-`
+
 some-css-selector {
     background-image: url(data:image/svg+xml;charset=utf-8;base64,_SVG_base64_hash_string_goes_here_)
 }
-`
+
 Support of SVG via backgrounds http://caniuse.com/#feat=svg-css
 
 
@@ -35,11 +35,9 @@ Or install it yourself as:
 
 ## Usage
 
-`
-background-image: url('data:image/svg+xml;charset=utf-8;base64,'\n
-                      + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'\n
+background-image: url('data:image/svg+xml;charset=utf-8;base64,
+                      + string2base64('<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">'
                       + '</svg>'))
-`
 
 ## Contributing
 
